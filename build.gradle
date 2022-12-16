@@ -12,6 +12,10 @@ repositories {
 dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.9.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.9.0'
+    testImplementation 'mysql:mysql-connector-java:8.0.30'
+    testImplementation 'com.github.javafacker:javafacker:1.0.1'
+    testImplementation 'commons-dbutils:commons-dbutils:1.7'
+
 }
 
 test {
